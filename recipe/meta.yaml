@@ -10,7 +10,7 @@ source:
   sha256: 7e4e6b19c7b284df1c6c8b500a342ad7d310a43d30f8f4e9ca3d987a9864b480
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage("river-cpp", max_pin="x.x") }}
 
@@ -23,13 +23,12 @@ requirements:
     - make  # [not win]
     - ninja  # [win]
     - pkg-config
-  host:
     - boost-cpp
     - arrow-cpp
+  host:
     - glog
   run:
     - gflags
-    - boost-cpp
 
 test:
   commands:
