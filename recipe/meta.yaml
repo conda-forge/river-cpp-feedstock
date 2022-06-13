@@ -1,13 +1,13 @@
 {% set name = "river-cpp" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/pbotros/river/archive/389b9ca6f76fdd2528aad96e67d33fc45a764d75.tar.gz
-  sha256: 7e4e6b19c7b284df1c6c8b500a342ad7d310a43d30f8f4e9ca3d987a9864b480
+  url: https://github.com/pbotros/river/archive/refs/tags/v1.0.1.tar.gz
+  sha256: bf56544197697eefaa331daa793c1c9e0f643012860c5fbcba055557e5fca84a
 
 build:
   number: 0
@@ -47,7 +47,7 @@ about:
   summary: 'High-throughput, structured, and persistent streaming'
   description: |
     A high-throughput, structured streaming framework built atop Redis Streams, with optional support for persistence-to-disk. C++ and Python support.
-  license: Apache-2.0
+  license: MIT
   license_file: LICENSE
 
 extra:
