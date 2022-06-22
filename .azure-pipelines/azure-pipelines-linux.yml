@@ -8,10 +8,6 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_arrow_cpp4.0.1:
-        CONFIG: linux_64_arrow_cpp4.0.1
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_arrow_cpp5.0.0:
         CONFIG: linux_64_arrow_cpp5.0.0
         UPLOAD_PACKAGES: 'True'
@@ -22,6 +18,10 @@ jobs:
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_arrow_cpp7.0.0:
         CONFIG: linux_64_arrow_cpp7.0.0
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_arrow_cpp8.0.0:
+        CONFIG: linux_64_arrow_cpp8.0.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
   timeoutInMinutes: 360
