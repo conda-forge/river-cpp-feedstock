@@ -1,5 +1,5 @@
 arrow_cpp:
-- 5.0.0
+- 8.0.1
 boost_cpp:
 - 1.74.0
 channel_sources:
