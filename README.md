@@ -30,87 +30,87 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_arrow_cpp6.0.1</td>
+              <td>linux_64_arrow_cpp10.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=linux&configuration=linux_64_arrow_cpp6.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_arrow_cpp10.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_arrow_cpp7.0.0</td>
+              <td>linux_64_arrow_cpp7.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=linux&configuration=linux_64_arrow_cpp7.0.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_arrow_cpp7.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_arrow_cpp8.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=linux&configuration=linux_64_arrow_cpp8.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_arrow_cpp8.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_arrow_cpp9.0.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=linux&configuration=linux_64_arrow_cpp9.0.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_arrow_cpp9.0.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_arrow_cpp6.0.1</td>
+              <td>osx_64_arrow_cpp10.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx_64_arrow_cpp6.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_arrow_cpp10.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_arrow_cpp7.0.0</td>
+              <td>osx_64_arrow_cpp7.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx_64_arrow_cpp7.0.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_arrow_cpp7.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_arrow_cpp8.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx_64_arrow_cpp8.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_arrow_cpp8.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_arrow_cpp9.0.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx_64_arrow_cpp9.0.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_arrow_cpp9.0.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_arrow_cpp6.0.1</td>
+              <td>win_64_arrow_cpp10.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=win&configuration=win_64_arrow_cpp6.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=win&configuration=win%20win_64_arrow_cpp10.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_arrow_cpp7.0.0</td>
+              <td>win_64_arrow_cpp7.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=win&configuration=win_64_arrow_cpp7.0.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=win&configuration=win%20win_64_arrow_cpp7.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_arrow_cpp8.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=win&configuration=win_64_arrow_cpp8.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=win&configuration=win%20win_64_arrow_cpp8.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_arrow_cpp9.0.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=win&configuration=win_64_arrow_cpp9.0.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=win&configuration=win%20win_64_arrow_cpp9.0.0" alt="variant">
                 </a>
               </td>
             </tr>

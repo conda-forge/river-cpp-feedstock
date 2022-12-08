@@ -8,11 +8,11 @@ jobs:
     vmImage: macOS-11
   strategy:
     matrix:
-      osx_64_arrow_cpp6.0.1:
-        CONFIG: osx_64_arrow_cpp6.0.1
+      osx_64_arrow_cpp10.0.1:
+        CONFIG: osx_64_arrow_cpp10.0.1
         UPLOAD_PACKAGES: 'True'
-      osx_64_arrow_cpp7.0.0:
-        CONFIG: osx_64_arrow_cpp7.0.0
+      osx_64_arrow_cpp7.0.1:
+        CONFIG: osx_64_arrow_cpp7.0.1
         UPLOAD_PACKAGES: 'True'
       osx_64_arrow_cpp8.0.1:
         CONFIG: osx_64_arrow_cpp8.0.1

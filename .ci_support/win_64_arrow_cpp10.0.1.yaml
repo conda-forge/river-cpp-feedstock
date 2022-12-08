@@ -1,7 +1,5 @@
-MACOSX_DEPLOYMENT_TARGET:
-- '10.9'
 arrow_cpp:
-- 6.0.1
+- 10.0.1
 boost_cpp:
 - 1.78.0
 channel_sources:
@@ -9,15 +7,11 @@ channel_sources:
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- clangxx
-cxx_compiler_version:
-- '14'
+- vs2019
 glog:
 - '0.6'
-macos_machine:
-- x86_64-apple-darwin13.4.0
 pin_run_as_build:
   boost-cpp:
     max_pin: x.x.x
 target_platform:
-- osx-64
+- win-64

@@ -1,7 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 arrow_cpp:
-- 7.0.0
+- 10.0.1
 boost_cpp:
 - 1.78.0
 channel_sources:
