@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/pbotros/river/archive/refs/tags/v1.0.1.tar.gz
-  sha256: bf56544197697eefaa331daa793c1c9e0f643012860c5fbcba055557e5fca84a
+  url: https://github.com/pbotros/river/archive/refs/tags/v1.0.2.tar.gz
+  sha256: 86ce0dc48501bd02546d2c18b8bacbfc57601821ade98600baabb04704d62581
 
 build:
   number: 4
@@ -30,6 +30,7 @@ requirements:
   run:
     - gflags
     - boost-cpp
+    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.13") }}  # [osx and x86_64]
 
 test:
   commands:

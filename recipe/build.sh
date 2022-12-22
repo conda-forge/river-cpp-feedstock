@@ -3,6 +3,11 @@
 set -x -e
 set -o pipefail
 
+if [[ "${target_platform}" == osx-* ]]; then
+    # See https://conda-forge.org/docs/maintainer/knowledge_base.html#newer-c-features-with-old-sdk
+    CXXFLAGS="${CXXFLAGS} -D_LIBCPP_DISABLE_AVAILABILITY"
+fi
+
 cd cpp
 mkdir -p build/release
 cd build/release
@@ -13,6 +18,7 @@ cmake -G "Unix Makefiles" \
   -DRIVER_BUILD_INGESTER=ON \
   -DRIVER_BUILD_TESTS=OFF \
   -DRIVER_INSTALL=ON \
+  -DCMAKE_CXX_STANDARD=17 \
   ${CMAKE_ARGS} \
   ../..
 make
