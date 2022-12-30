@@ -86,6 +86,34 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_arrow_cpp10.0.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_arrow_cpp10.0.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_arrow_cpp7.0.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_arrow_cpp7.0.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_arrow_cpp8.0.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_arrow_cpp8.0.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_arrow_cpp9.0.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/river-cpp-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_arrow_cpp9.0.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_arrow_cpp10.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16414&branchName=main">

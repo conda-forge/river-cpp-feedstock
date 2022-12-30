@@ -20,6 +20,18 @@ jobs:
       osx_64_arrow_cpp9.0.0:
         CONFIG: osx_64_arrow_cpp9.0.0
         UPLOAD_PACKAGES: 'True'
+      osx_arm64_arrow_cpp10.0.1:
+        CONFIG: osx_arm64_arrow_cpp10.0.1
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arrow_cpp7.0.1:
+        CONFIG: osx_arm64_arrow_cpp7.0.1
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arrow_cpp8.0.1:
+        CONFIG: osx_arm64_arrow_cpp8.0.1
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_arrow_cpp9.0.0:
+        CONFIG: osx_arm64_arrow_cpp9.0.0
+        UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
 
   steps:
