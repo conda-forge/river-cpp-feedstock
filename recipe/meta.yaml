@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/pbotros/river/archive/refs/tags/v1.0.2.tar.gz
-  sha256: 86ce0dc48501bd02546d2c18b8bacbfc57601821ade98600baabb04704d62581
+  url: https://github.com/pbotros/river/archive/43f6a1bbf247e1c6575574d7d7667ed058c2b5a8.tar.gz
+  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
 build:
   number: 4

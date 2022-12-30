@@ -18,7 +18,6 @@ cmake -G "Unix Makefiles" \
   -DRIVER_BUILD_INGESTER=ON \
   -DRIVER_BUILD_TESTS=OFF \
   -DRIVER_INSTALL=ON \
-  -DCMAKE_CXX_STANDARD=17 \
   ${CMAKE_ARGS} \
   ../..
 make
