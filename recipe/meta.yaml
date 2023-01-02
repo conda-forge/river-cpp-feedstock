@@ -10,7 +10,7 @@ source:
   sha256: e931af61f16433275f9bd6f2c27137af49c61557a510c79490e9e809544bd94c 
 
 build:
-  number: 4
+  number: 5
   run_exports:
     - {{ pin_subpackage("river-cpp", max_pin="x.x") }}
 
@@ -24,12 +24,9 @@ requirements:
     - ninja  # [win]
     - pkg-config
   host:
-    - boost-cpp
-    - arrow-cpp
     - glog
   run:
     - gflags
-    - boost-cpp
     - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.13") }}  # [osx and x86_64]
 
 test:

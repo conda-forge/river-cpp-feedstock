@@ -2,9 +2,6 @@ cd cpp
 mkdir build\release
 cd build\release
 
-:: NOTE: we disable building ingester on Windows since the
-:: build is failing for some unknown reason, and it's likely
-:: not to be desired (you need Linux to run Redis anyways).
 cmake -G"NMake Makefiles" ^
   -DCMAKE_BUILD_TYPE:STRING=Release ^
   -DCMAKE_INSTALL_PREFIX:PATH="%LIBRARY_PREFIX%" ^
