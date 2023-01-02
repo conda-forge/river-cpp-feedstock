@@ -1,7 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
-- '10.9'
+- '11.0'
 arrow_cpp:
-- 7.0.0
+- 8.0.1
 boost_cpp:
 - 1.78.0
 channel_sources:
@@ -15,9 +15,9 @@ cxx_compiler_version:
 glog:
 - '0.6'
 macos_machine:
-- x86_64-apple-darwin13.4.0
+- arm64-apple-darwin20.0.0
 pin_run_as_build:
   boost-cpp:
     max_pin: x.x.x
 target_platform:
-- osx-64
+- osx-arm64
