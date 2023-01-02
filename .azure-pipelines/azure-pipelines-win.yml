@@ -8,17 +8,8 @@ jobs:
     vmImage: windows-2019
   strategy:
     matrix:
-      win_64_arrow_cpp10.0.1:
-        CONFIG: win_64_arrow_cpp10.0.1
-        UPLOAD_PACKAGES: 'True'
-      win_64_arrow_cpp7.0.1:
-        CONFIG: win_64_arrow_cpp7.0.1
-        UPLOAD_PACKAGES: 'True'
-      win_64_arrow_cpp8.0.1:
-        CONFIG: win_64_arrow_cpp8.0.1
-        UPLOAD_PACKAGES: 'True'
-      win_64_arrow_cpp9.0.0:
-        CONFIG: win_64_arrow_cpp9.0.0
+      win_64_:
+        CONFIG: win_64_
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:
