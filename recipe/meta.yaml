@@ -1,13 +1,13 @@
 {% set name = "river-cpp" %}
-{% set version = "1.0.8" %}
+{% set version = "1.0.9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/pbotros/river/archive/refs/tags/v1.0.8.tar.gz
-  sha256: 783c871593ec5bb7905ebaab3ca6ec4b664cba21e29dc0809b169a4124894521
+  url: https://github.com/pbotros/river/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 0a29e235d0c2c264639d11859f113f0a8f28e0b3819c7677f731f9eeb60cab20
 
 build:
   number: 0
@@ -23,10 +23,12 @@ requirements:
     - make  # [not win]
     - ninja  # [win]
     - pkg-config
+    - zfp  # [not osx or not arm64]
   host:
     - glog
   run:
     - gflags
+    - zfp
     - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.13") }}  # [osx and x86_64]
 
 test:

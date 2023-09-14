@@ -9,6 +9,7 @@ cmake -G"NMake Makefiles" ^
   -DRIVER_BUILD_INGESTER=OFF ^
   -DRIVER_BUILD_TESTS=OFF ^
   -DRIVER_INSTALL=ON ^
+  -DRIVER_BUILD_REDIS_MODULE=OFF ^
   %CMAKE_ARGS% ^
   ..\..
 if errorlevel 1 exit 1
