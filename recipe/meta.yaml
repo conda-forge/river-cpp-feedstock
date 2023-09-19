@@ -1,5 +1,5 @@
 {% set name = "river-cpp" %}
-{% set version = "1.0.9" %}
+{% set version = "1.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/pbotros/river/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8e730d12c59a187dc687ab8959e113494a0ef73a8d42315d93234d3b637c78fb
+  sha256: bfa49c61bf7d52eee8d1b151a09369ca46ebb175b3b4411cdc59873ae7fa3320
 
 build:
-  number: 2
+  number: 0
   run_exports:
     - {{ pin_subpackage("river-cpp", max_pin="x.x") }}
 

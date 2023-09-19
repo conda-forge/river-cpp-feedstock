@@ -8,3 +8,5 @@ glog:
 - '0.6'
 target_platform:
 - win-64
+zfp:
+- '1.0'
