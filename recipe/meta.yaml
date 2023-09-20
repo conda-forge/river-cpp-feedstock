@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/pbotros/river/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: bfa49c61bf7d52eee8d1b151a09369ca46ebb175b3b4411cdc59873ae7fa3320
+  sha256: 6d479643e3a87d52c429f02a43b8665e202685570c87cee5037e9c2741b514b4
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage("river-cpp", max_pin="x.x") }}
 
