@@ -1,5 +1,5 @@
 {% set name = "river-cpp" %}
-{% set version = "1.0.10" %}
+{% set version = "1.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/pbotros/river/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 6d479643e3a87d52c429f02a43b8665e202685570c87cee5037e9c2741b514b4
+  sha256: 222145f7e9ce1cdc8857ae03753b922cfe68168f4972597e0e8161fbad14350e
 
 build:
-  number: 1
+  number: 0
   run_exports:
     - {{ pin_subpackage("river-cpp", max_pin="x.x") }}
 
@@ -25,9 +25,9 @@ requirements:
     - pkg-config
     - zfp  # [not osx or not arm64]
   host:
-    - glog
+    - spdlog
   run:
-    - gflags
+    - spdlog
     - zfp
     - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.13") }}  # [osx and x86_64]
 
