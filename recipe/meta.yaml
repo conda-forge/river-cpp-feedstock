@@ -10,7 +10,7 @@ source:
   sha256: 04f6712d220a97fde76e3ed5998832c4a7ba790137cf656f8c2d1290077b8eaf
 
 build:
-  number: 1
+  number: 2
   run_exports:
     - {{ pin_subpackage("river-cpp", max_pin="x.x") }}
 
@@ -19,6 +19,7 @@ requirements:
     # If your project compiles code (such as a C extension) then add the required compilers as separate entries here.
     # Compilers are named 'c', 'cxx' and 'fortran'.
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - cmake
     - make  # [not win]
     - ninja  # [win]
@@ -29,7 +30,6 @@ requirements:
   run:
     - spdlog
     - zfp
-    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.13") }}  # [osx and x86_64]
 
 test:
   commands:
