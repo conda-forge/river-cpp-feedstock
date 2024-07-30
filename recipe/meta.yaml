@@ -10,7 +10,7 @@ source:
   sha256: 04f6712d220a97fde76e3ed5998832c4a7ba790137cf656f8c2d1290077b8eaf
 
 build:
-  number: 2
+  number: 3
   run_exports:
     - {{ pin_subpackage("river-cpp", max_pin="x.x") }}
 
