@@ -20,7 +20,7 @@ requirements:
     # Compilers are named 'c', 'cxx' and 'fortran'.
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
-    - cmake
+    - cmake <4
     - make  # [not win]
     - ninja  # [win]
     - pkg-config
