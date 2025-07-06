@@ -10,7 +10,7 @@ source:
   sha256: 04f6712d220a97fde76e3ed5998832c4a7ba790137cf656f8c2d1290077b8eaf
 
 build:
-  number: 3
+  number: 4
   run_exports:
     - {{ pin_subpackage("river-cpp", max_pin="x.x") }}
 
@@ -20,7 +20,7 @@ requirements:
     # Compilers are named 'c', 'cxx' and 'fortran'.
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
-    - cmake
+    - cmake <4
     - make  # [not win]
     - ninja  # [win]
     - pkg-config
